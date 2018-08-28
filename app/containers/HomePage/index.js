@@ -81,6 +81,10 @@ export class HomePage extends React.PureComponent {
             >
               React Draft Wysiwyg
             </a>
+            <p>
+              Problèmes avec les copiers coller, notamment lorsque la source
+              provient de l éditeur. Sinon gras & italique saute. Image ok
+            </p>
             <TestEditor />
             <H2>
               <FormattedMessage {...messages.trymeHeader} />
