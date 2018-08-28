@@ -1,0 +1,16 @@
+/**
+ * TestEditor
+ *
+ */
+
+import React from 'react';
+// import PropTypes from 'prop-types';
+// import styled from 'styled-components';
+
+function TestEditor() {
+  return <div />;
+}
+
+TestEditor.propTypes = {};
+
+export default TestEditor;
