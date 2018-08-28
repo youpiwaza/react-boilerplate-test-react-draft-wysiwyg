@@ -4,6 +4,8 @@
  * This is the first thing users see of our App, at the '/' route
  */
 
+import TestEditor from 'components/TestEditor';
+
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
@@ -71,6 +73,15 @@ export class HomePage extends React.PureComponent {
             </p>
           </CenteredSection>
           <Section>
+            <h1>Test Editeur markdown</h1>
+            Lien de ref :
+            <a
+              href="https://jpuri.github.io/react-draft-wysiwyg/#/"
+              target="_blank"
+            >
+              React Draft Wysiwyg
+            </a>
+            <TestEditor />
             <H2>
               <FormattedMessage {...messages.trymeHeader} />
             </H2>
